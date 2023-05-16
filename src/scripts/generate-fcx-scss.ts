@@ -1,3 +1,4 @@
+/* tslint:disable */
 const { green } = require('@fcxlabs/colors');
 const { red } = require('@fcxlabs/colors');
 const { pear } = require('@fcxlabs/colors');
