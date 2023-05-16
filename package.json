@@ -1,6 +1,6 @@
 {
   "name": "@fcxlabs/colors",
-  "version": "1.1.8",
+  "version": "1.2.0",
   "description": "Colors package for FCx Labs",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,7 +15,7 @@
     "preversion": "npm run lint",
     "version": "npm run format",
     "postversion": "git push && git push --tags",
-    "postinstall": "node generate-scss.js"
+    "postinstall": "node ./src/scripts/generate-fcx-scss.js"
   },
   "prepublish": "npm run build",
   "devDependencies": {
